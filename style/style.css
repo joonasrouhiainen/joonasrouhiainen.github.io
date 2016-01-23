@@ -41,7 +41,7 @@ img.hoverable:hover {
   text-align: center;
 }
 h1 {
-  font-size: 32px;
+  font-size: 1.8em;
   font-family: "Montserrat", Helvetica, sans-serif;
   color: #eee;
   margin-bottom: 1em;
@@ -50,6 +50,7 @@ p {
   margin-bottom: 1em;
 }
 ul {
+  margin-top: 2em;
   list-style-type: none;
 }
 a {
@@ -61,9 +62,14 @@ a {
     flex-direction: column;
     -webkit-flex-direction: column;
     font-size: 14px;
+    margin-top: 1em;
   }
   .col {
     text-align: center;
     width: 100%;
+  }
+  #reaktor {
+    height: 14px;
+    width: 61px;
   }
 }

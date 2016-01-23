@@ -34,6 +34,15 @@ img {
   border: 20px solid #222;
   border-radius: 200px;
 }
+img.hoverable {
+  border: none;
+  border-radius: 0;
+  margin-right: 6px;
+  opacity: .8;
+}
+img.hoverable:hover {
+  opacity: 1;
+}
 h1 {
   font-size: 32px;
   font-family: "Montserrat", Helvetica, sans-serif;

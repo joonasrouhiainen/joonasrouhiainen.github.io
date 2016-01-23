@@ -3,12 +3,14 @@ html(lang="en")
   head
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(property="fb:admins" content="528834021")
     title Joonas Rouhiainen
     link(rel="stylesheet" href="style/style.css")
     link(href="http://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet" type="text/css")
+
   body
     .col#left
-      img#profile(src="joonas_rouhiainen.jpg" alt="Joonas Rouhiainen" width="300" height="400")
+      img#profile(src="joonas_rouhiainen.jpg" alt="Joonas Rouhiainen")
     .col
       h1= page.title
       != page.html
@@ -16,10 +18,8 @@ html(lang="en")
       p Software gardener / Ohjelmistopuutarhuri
       p Helsinki, Finland
       p
-        a(href="http://reaktor.com" target="_blank")
-          img.hoverable(src="reaktor.svg" width="100" height="18")
-        br
-        br
+        a(href="http://www.reaktor.com/" target="_blank")
+          img.hoverable(src="reaktor.png" width="87" height="20")
       ul
         li
           a(href="https://github.com/rjoonas" target="_blank")

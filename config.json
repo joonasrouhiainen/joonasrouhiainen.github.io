@@ -1,7 +1,0 @@
-{
-  "locals": {
-    "title": ""
-  },
-  "output": "./",
-  "plugins": [ "wintersmith-less" ]
-}
